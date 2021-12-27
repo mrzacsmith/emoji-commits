@@ -26,33 +26,33 @@ In order to reduce inconsistencies with work commits, and to provide a uniform s
 
 Only use the following Git Commit Messages. A simple and small footprint is critical here.
 
-1. `📦 NEW: IMPERATIVE_MESSAGE_GOES_HERE`
+- `📦 NEW: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you add something entirely new.
     > E.g. `📦 NEW: Add Git ignore file`
 
-1. `👍 IMPROVE: IMPERATIVE_MESSAGE_GOES_HERE`
+- `👍 IMPROVE: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you improve/enhance piece of code like refactoring etc.
-    > E.g. `👌 IMPROVE: Remote IP API Function`
+    > E.g. `👍 IMPROVE: Remote IP API Function`
 
-1. `🐛 FIX: IMPERATIVE_MESSAGE_GOES_HERE`
-    > Use when you fix a bug — need I say more?
+- `🐛 FIX: IMPERATIVE_MESSAGE_GOES_HERE`
+    > Use when you fix a bug.
     > E.g. `🐛 FIX: Case conversion`
 
-1. `📖 DOCUMENT: IMPERATIVE_MESSAGE_GOES_HERE`
+- `📖 DOCUMENT: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you add documentation like `README.md`, or even inline docs.
     > E.g. `📖 DOC: API Interface Tutorial`
 
-1. `🚀 READY: IMPERATIVE_MESSAGE_GOES_HERE`
-    > Use when you release a new version.
-    > E.g. `🚀 RELEASE: Version 2.0.0`
+- `🚀 READY: IMPERATIVE_MESSAGE_GOES_HERE`
+    > Use when you are complete with a feature and ready for testing.
+    > E.g. `🚀 READY: Feature`
 
-1. `🤖 TESTINT: IMPERATIVE_MESSAGE_GOES_HERE`
+- `🤖 TESTINT: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when it's related to testing.
     > E.g. `🤖 TEST: Mock User Login/Logout`
 
-1. `☣️ BREAKING: IMPERATIVE_MESSAGE_GOES_HERE`
+- `☣️ BREAKING: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when releasing a change that breaks previous versions.
-    > E.g. `‼️ BREAKING: Change authentication protocol`
+    > E.g. `☣️ BREAKING: Change authentication protocol`
 
 ### GIT ALIASES
 
