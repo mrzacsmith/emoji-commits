@@ -3,7 +3,7 @@
 
 ### PHILOSOPHY
 
-In order to reduce inconsistencies with work commits, and to provide a uniform system that is visually easy to understand, emoji commits was modified to fir the organization needs. 
+In order to reduce inconsistencies with work commits, and to provide a uniform system that is visually easy to understand, emoji commits was modified to fit the organization needs. 
 
 1. **IMPERATIVE** ↓
 
