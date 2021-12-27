@@ -57,15 +57,15 @@ Only use the following Git Commit Messages. A simple and small footprint is crit
 ### GIT ALIASES
 
 - `git inc` => Takes no message and is for the initial commit ONLY => `🎉 INITIAL COMMIT`
-- `git fb <branch-name>` => Take a branch name and creates a `feature/branch` and set the upstream to that branch
-- `git new '<message>'` => Take a commit message, and uses `git cap` to add, commit, and push => `📦 NEW: <message>`
-- `git imp '<message>'` => Take a commit message, and uses `git cap` to add, commit, and push => `👍 IMPROVE: <message>`
-- `git fix '<message>'` => Take a commit message, and uses `git cap` to add, commit, and push => `🐛 FIX: <message>`
-- `git rdy '<message>'` => Take a commit message, and uses `git cap` to add, commit, and push => `🚀 READY: <message>`
-- `git doc '<message>'` => Take a commit message, and uses `git cap` to add, commit, and push => `📖 DOCUMENT: <message>`
-- `git tst '<message>'` => Take a commit message, and uses `git cap` to add, commit, and push => `🤖 TESTING: <message>`
-- `git brk '<message>'` => Take a commit message, and uses `git cap` to add, commit, and push => `☣️ BREAKING: <message>`
-- `git cap '<message>'` => Take a commit message, to add, commit, and push 
+- `git fb <branch-name>` => Takes a branch name and creates a `feature/branch` and set the upstream to that branch
+- `git new '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push => `📦 NEW: <message>`
+- `git imp '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push => `👍 IMPROVE: <message>`
+- `git fix '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push => `🐛 FIX: <message>`
+- `git rdy '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push => `🚀 READY: <message>`
+- `git doc '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push => `📖 DOCUMENT: <message>`
+- `git tst '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push => `🤖 TESTING: <message>`
+- `git brk '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push => `☣️ BREAKING: <message>`
+- `git cap '<message>'` => Takes a commit message, to add, commit, and push 
 
 ### GITCONFIG UPDATE
 
