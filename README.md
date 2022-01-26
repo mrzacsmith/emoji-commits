@@ -62,8 +62,11 @@ Only use the following Git Commit Messages. A simple and small footprint is crit
 ### GIT ALIASES
 
 - `git inc` => Takes no message and is for the initial commit ONLY <br> => 🎉 INITIAL COMMIT
-- `git fb <branch-name>` => Takes a branch name and creates a `feature/branch` and set the upstream to that branch
-- `git bb <branch-name>` => Takes a branch name and creates a `breaking/branch` and set the upstream to that branch
+- `git fb <branch>` => Takes a branch name and creates a `feature/branch` and set the upstream to that branch
+- `git bb <branch>` => Takes a branch name and creates a `breaking/branch` and set the upstream to that branch
+- `git pub <branch>` => Takes a branch name and pulls origin `branch`
+- `git pom` => Takes no parameters and does a `git pull origin main`
+- `git rmb <branch>` => Takes a branch name to delete
 - `git new '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push <br> => 📦 NEW: 'message'
 - `git imp '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push <br> => 👍 IMPROVE: 'message'
 - `git fix '<message>'` => Takes a commit message, and uses `git cap` to add, commit, and push <br> => 🐛 FIX: 'message'
@@ -98,14 +101,22 @@ Only use the following Git Commit Messages. A simple and small footprint is crit
   tst = "!f() { git cap \"🤖 TESTING: $@\"; }; f"
   # BREAKING CHANGE.
   brk = "!f() { git cap \"☣️ BREAKING: $@\"; }; f"
-  # Feature branch.
+  # FEATURE BRANCH.
   fb = "!f() { git checkout -b "feature/$@"; git push -u origin "feature/$@"; }; f"
-  # Breaking branch.
+  # BREAKING BRANCH.
   bb = "!f() { git checkout -b "breaking/$@"; git push -u origin "breaking/$@"; }; f"
-  # Initial commit.
+  # INITIAL COMMIT.
   inc = "!f() { git add .; git commit -m \"🎉 INITIAL COMMIT\"; git push -u origin main; }; f"
+  # Pull origin <branch-name>.
+  pub = "!f() { git pull origin "$@ "}; f"
+  # Pull origin main.
+  pom = "!f() { git pull origin main; }; f"
+  # Remove <branch-name>.
+  rmb = "!f() { git branch -D "$@" }; f"
 ```
 
 ### Credits
 
 - Emoji Commits is a modified version of Emoji-Logs.
+
+- **Last Updated**: Jan 26, 2023
